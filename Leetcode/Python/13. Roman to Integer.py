@@ -1,6 +1,9 @@
 class Solution(object):
+
+    s = 'MCMXCIV'
+
     def romanToInt(self, s):
-        ltr =  {
+        ltr = {
             'I': 1,
             'V': 5,
             'X': 10,
@@ -18,7 +21,5 @@ class Solution(object):
                 num += ltr[s[i]]
         return num + ltr[s[-1]]
 
-        """
-        :type s: str
-        :rtype: int
-        """
+
+    print(romanToInt(s, 'MCMXCIV'))
