@@ -2,7 +2,7 @@ class Solution(object):
 
     s = 'MCMXCIV'
 
-    def romanToInt(self, s):
+    def romanToInt(s):
         ltr = {
             'I': 1,
             'V': 5,
@@ -22,4 +22,4 @@ class Solution(object):
         return num + ltr[s[-1]]
 
 
-    print(romanToInt(s, 'MCMXCIV'))
+    print(romanToInt(s))
